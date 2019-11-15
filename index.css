@@ -1,0 +1,160 @@
+body
+{
+	background-color : #DBD9DB ;
+	margin: 20;
+
+	padding: 0;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+.flotte {
+float:left;
+}
+
+
+.retrait {
+margin-left:700px;
+}
+
+
+.titre
+{
+	font-size: 130px;
+	font-weight: bold;
+	color: #000000;
+	margin-left:750px;
+}
+
+.soustitre
+{
+	font-size: 40px;
+	color: #000000;
+	margin-left:750px;
+}
+
+.pp
+{
+	margin-left:200px;
+	border: 8px black solid;
+    border-radius: 100%;
+    width: 400px;
+    background: url("image/pierre1.png") no-repeat center center 200px;
+    padding:10px;
+}
+
+.pp:hover
+{
+    animation: masuperanimation 2s; /* On utilise "ma super animation" définie plus tôt */
+}
+
+@keyframes masuperanimation {
+
+    50% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+a{
+	text-decoration: none;
+}
+
+ul
+{	
+	list-style-type:none;
+}
+li
+{
+	margin-left:0px;
+	float:left; /*pour IE*/
+}
+ul li
+{
+	text-align: center;
+	display:block;
+ 	float:left;   
+ 	width:294px;
+ 	background-color:#B098A4;
+ 	color:black;
+	text-decoration:none;
+	text-align:center;
+ 	padding:4px;
+	border:1px solid;
+	border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
+
+ul li:hover
+{
+	background-color:#D3D3D3;
+	border-color:#696969 #DCDCDC #DCDCDC #696969;
+}
+
+
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:150%;
+ }
+
+fieldset {
+background-color:#DBD9DB;
+ padding:200px;
+ width:auto;
+ padding:50 200px 20px 50px;
+ margin-bottom:100px;
+ border:10px solid #B098A4;
+ margin: 100px;
+ }
+legend {
+ padding:20px 100px;
+ color:#B098A4; 
+ font-weight:bold;
+ font-size: 70px;
+ }
+ 
+label {
+ margin-top:20px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:800px;
+ }
+input, textarea, select, option {
+ background-color:#B098A4;
+ }
+input, textarea, select {
+ padding:10px;
+ border:1px solid #000000;
+ border-radius:5px;
+ width:600px;
+ box-shadow:3px 3px 3px #C0C0C0 inset;
+ }
+select {
+ margin-top:100px;
+ }
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+input[type=submit], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:1px 1px 1px #D83F3D;
+ cursor:pointer;
+ }
+
+ .introduction
+{
+	font-size: 30px;
+	font-weight: normal;
+	color: #000000;
+	margin-left:150px;
+}
